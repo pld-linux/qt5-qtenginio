@@ -63,7 +63,7 @@ Requires:	Qt5Qml >= %{qtdeclarative_ver}
 Qt5 Enginio is a client library for accessing Enginio service from Qt
 and QML code.
 
-%description -n Qt5Enginio -l pl.UTF_8
+%description -n Qt5Enginio -l pl.UTF-8
 Biblioteka Qt5 Enginio to biblioteka kliencka służąca do dostępu do
 usługi Enginio z poziomu Qt i QML-a.
 
