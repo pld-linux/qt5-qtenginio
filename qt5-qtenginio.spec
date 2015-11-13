@@ -9,13 +9,13 @@
 Summary:	The Qt5 Enginio library
 Summary(pl.UTF-8):	Biblioteka Qt5 Enginio
 Name:		qt5-%{orgname}
-Version:	5.4.2
+Version:	5.5.1
 Release:	1
 License:	LGPL v2.1 with Digia Qt LGPL Exception v1.1 or GPL v3.0
 Group:		Libraries
-Source0:	http://download.qt-project.org/official_releases/qt/5.4/%{version}/submodules/%{orgname}-opensource-src-%{version}.tar.xz
-# Source0-md5:	3524c13f2c366c0f9d7652d592599c61
-URL:		http://qt-project.org/
+Source0:	http://download.qt.io/official_releases/qt/5.5/%{version}/submodules/%{orgname}-opensource-src-%{version}.tar.xz
+# Source0-md5:	43125ee64c8d6c023628c5f612743896
+URL:		http://www.qt.io/
 BuildRequires:	Qt5Core-devel >= %{qtbase_ver}
 BuildRequires:	Qt5Gui-devel >= %{qtbase_ver}
 BuildRequires:	Qt5Network-devel >= %{qtbase_ver}
