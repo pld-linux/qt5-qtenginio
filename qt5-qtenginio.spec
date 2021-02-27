@@ -127,7 +127,8 @@ Przykłady do biblioteki Qt5 Enginio.
 %setup -q -n %{orgname}-opensource-src-%{version}
 
 %build
-qmake-qt5
+qmake-qt5 \
+	DEFINES-=QT_NO_LINKED_LIST
 %{__make}
 %{__make} %{!?with_qch:html_}docs
 
