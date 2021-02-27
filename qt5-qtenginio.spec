@@ -29,6 +29,7 @@ BuildRequires:	qt5-assistant >= %{qttools_ver}
 %endif
 BuildRequires:	qt5-build >= %{qtbase_ver}
 BuildRequires:	qt5-qmake >= %{qtbase_ver}
+BuildRequires:	rpm-build >= 4.6
 BuildRequires:	rpmbuild(macros) >= 1.654
 BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
@@ -89,9 +90,7 @@ Summary:	Qt5 Enginio documentation in HTML format
 Summary(pl.UTF-8):	Dokumentacja do biblioteki Qt5 Enginio w formacie HTML
 Group:		Documentation
 Requires:	qt5-doc-common >= %{qtbase_ver}
-%if "%{_rpmversion}" >= "5"
 BuildArch:	noarch
-%endif
 
 %description doc
 Qt5 Enginio documentation in HTML format.
@@ -104,9 +103,7 @@ Summary:	Qt5 Enginio documentation in QCH format
 Summary(pl.UTF-8):	Dokumentacja do biblioteki Qt5 Enginio w formacie QCH
 Group:		Documentation
 Requires:	qt5-doc-common >= %{qtbase_ver}
-%if "%{_rpmversion}" >= "5"
 BuildArch:	noarch
-%endif
 
 %description doc-qch
 Qt5 Enginio documentation in QCH format.
@@ -118,9 +115,7 @@ Dokumentacja do biblioteki Qt5 Enginio w formacie QCH.
 Summary:	Qt5 Enginio examples
 Summary(pl.UTF-8):	Przykłady do biblioteki Qt5 Enginio
 Group:		X11/Development/Libraries
-%if "%{_rpmversion}" >= "5"
 BuildArch:	noarch
-%endif
 
 %description examples
 Qt5 Enginio examples.
